@@ -1,0 +1,113 @@
+baseURL = 'http://pabloborges.com/'
+defaultContentLanguage = "en"
+languageCode = 'en'
+title = 'Pablo Borges | Software Engineer'
+theme = 'LoveIt'
+# author = "pablo"
+# name = "Pablo Borges"
+#bio = "Something about me"
+
+[params]
+  # LoveIt theme version
+  version = "0.2.X"
+  # site default theme ("light", "dark", "auto")
+  defaultTheme = "auto"
+
+  # Home page config
+  [params.home]
+    # # LoveIt NEW | 0.2.0 amount of RSS pages
+    # rss = 10
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      # gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = "/images/avatar.png"
+      # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+      title = ""
+      # subtitle shown in home page
+      # subtitle = "This is My New Hugo Site"
+      # whether to use typeit animation for subtitle
+      typeit = true
+      # whether to show social links
+      social = true
+      # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+      # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
+      # default behavior when you don't set "hiddenFromHomePage" in front matter
+      defaultHiddenFromHomePage = false
+
+  # Footer config
+  [params.footer]
+    enable = false
+
+  # Social config about the author
+  [params.social]
+    GitHub = "pabloborges"
+    Linkedin = "borgespablo"
+    Twitter = "pabloborges"
+    Stackoverflow = "516450"
+    # Instagram = "xxxx"
+    # Facebook = "xxxx"
+    # Telegram = "xxxx"
+    # Paypal = ""
+    # Goodreads = ""
+    # Lastfm = ""
+    # Foursquare = ""
+    # Hackernews = ""
+    # Kickstarter = ""
+    # Patreon = ""
+    # Steam = ""
+    # Twitch = ""
+    # Skype = ""
+    # Whatsapp = ""
+    # Wordpress = ""
+    # Vine = ""
+    # Mastodon = ""
+    # Devto = ""
+    # XMPP = ""
+    # Email = "xxxx@xxxx.com"
+    RSS = true # LoveIt NEW | 0.2.0
+
+# [menu]
+#   [[menu.main]]
+#     identifier = "posts"
+#     # you can add extra information before the name (HTML format is supported), such as icons
+#     pre = ""
+#     # you can add extra information after the name (HTML format is supported), such as icons
+#     post = ""
+#     name = "Posts"
+#     url = "/posts/"
+#     # title will be shown when you hover on this menu link
+#     title = ""
+#     weight = 1
+#   [[menu.main]]
+#     identifier = "tags"
+#     pre = ""
+#     post = ""
+#     name = "Tags"
+#     url = "/tags/"
+#     title = ""
+#     weight = 2
+#   [[menu.main]]
+#     identifier = "categories"
+#     pre = ""
+#     post = ""
+#     name = "Categories"
+#     url = "/categories/"
+#     title = ""
+#     weight = 3
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+
